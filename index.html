@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SavalaTech</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="#" class="logo"> <i class="fas fa-laptop" 
+        ></i>SavalaTech </a>
+   
+    <nav class="navbar">
+        <a href="#home">Loja</a>
+        <a href="#features">Serviços</a>
+        <a href="#products">productos</a>
+        <a href="#categories">categorias</a>
+        <a href="#review">review</a>
+        <a href="#blogs">blogs</a>
+    </nav>
+    <div class="share">
+        <a href="https://www.facebook.com/Clinica-do-Computador-103485461482126" class="fab fa-facebook-f"></a>
+        <a href="https://twitter.com/Marcosavala1" class="fab fa-twitter"></a>
+        <a href="https://www.instagram.com/savalatech/" class="fab fa-instagram"></a>
+        <a href="https://www.linkedin.com/in/marco-antonio-savala-beltrame-b70986108/" class="fab fa-linkedin"></a>
+    </div>
+
+    <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+    </div>
+
+    <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+    <div class="shopping-cart">
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="image/MacB.jpg" alt="">
+            <div class="content">
+                <h3>Macbook Pro</h3>
+                <span class="price">R$5900,00/-</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="image/iphone.jpg" alt="">
+            <div class="content">
+                <h3>iphone 13</h3>
+                <span class="price">R$7500,00</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="image/Pc1.jpg" alt="">
+            <div class="content">
+                <h3>Pc Gamer</h3>
+                <span class="price">R$8900,00</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+        <div class="total"> total : R$19.69/- </div>
+        <a href="#" class="btn">checkout</a>
+    </div>
+
+    <form action="" class="login-form">
+        <h3>login now</h3>
+        <input type="email" placeholder="your email" class="box">
+        <input type="password" placeholder="your password" class="box">
+        <p>forget your password <a href="#">click here</a></p>
+        <p>don't have an account <a href="#">create now</a></p>
+        <input type="submit" value="login now" class="btn">
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h1>Clinica<span></span> do Computadoras</h1>
+        <h2>Assistência<span> Técnica </span> Especializada</h2>
+        <p>Somos uma empresa especializada na arrumação e manutenção de equipamentos informáticos.</p>
+        <a href="#" class="btn">Visitenos</a>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- features section starts  -->
+
+<section class="features" id="features">
+
+    <h1 class="heading"> Noss <span>Serviços</span> </h1>
+    <video controls
+    src="Untitled_video (7).mp4" width="100%" type="video">
+</video>
+    <div class="box-container">
+
+        <div class="box">
+            <img src="image/service2.jpg" alt="">
+            <h3>Concerto Computadoras</h3>
+            <h4>Manutenção e reparação de PC, Notebook, Macbook, Tablet!</h3>
+            <a href="#" class="btn">Leer mais</a>
+        </div>
+
+        <div class="box">
+            <img src="image/concerto1.jpg" alt="">
+            <h3>Concerto de Celulares</h3>
+            <p>Manutenção e reparação de telemóveis, peças originais</p>
+            <a href="#" class="btn">Leer mais</a>
+        </div>
+
+        <div class="box">
+            <img src="image/repairPrinter.jpg" alt="">
+            <h3>Concerto de Impresoras</h3>
+            <p>Manutenção e reparação de impressoras!</p>
+            <a href="#" class="btn">Leer mais</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- features section ends -->
+
+<!-- products section starts  -->
+
+<section class="products" id="products">
+
+    <h1 class="heading"> Mais  <span>Serviços</span> </h1>
+
+    <div class="swiper product-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="image/refil-machine-final.png" alt="">
+                <h3>Recarga de Cartuchos</h3>
+                <div class="price">  </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">suma do carritho</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/imac-1.jpg" alt="">
+                <h3>Concerto MacBook</h3>
+                <div class="price"> </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/Marco6.jpg" alt="">
+                <h3>Garantia e experiencia</h3>
+                <div class="price">  </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/IMG_0167.JPG" alt="">
+                <h3>Vendas de Pecas</h3>
+                <div class="price"> </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="swiper product-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="image/IMG_0623.JPG" alt="">
+                <h3>Cargadores</h3>
+                <div class="price"> </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/TNKDE4763.JPG" alt="">
+                <h3>Concerto Notebook</h3>
+                <div class="price">  </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/baterias09.JPG" alt="">
+                <h3>Baterias</h3>
+                <div class="price"> </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/Teclados0.JPG" alt="">
+                <h3>Teclados</h3>
+                <div class="price">  </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+        </div>
+
+    </div>
+
+
+</section>
+
+<!-- products section ends -->
+
+<!-- categories section starts  -->
+
+<section class="categories" id="categories">
+
+    <h1 class="heading">Vendas <span>Accesorios</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="image/accesorios celulares.jpg" alt="">
+            <h3>Celulares</h3>
+            <p>Novos e Usados</p>
+            <a href="#" class="btn">Compre Agora</a>
+        </div>
+
+        <div class="box">
+            <img src="image/Pc1.jpg" alt="">
+            <h3>Equipos Pc</h3>
+            <p>Novos e Usados</p>
+            <a href="#" class="btn">Compre Agora</a>
+        </div>
+
+        <div class="box">
+            <img src="image/concerto1.jpg" alt="">
+            <h3>Pecas Celulares</h3>
+            <p>Originales e Compatibles</p>
+            <a href="#" class="btn">Compre Agora</a>
+        </div>
+
+        <div class="box">
+            <img src="image/notebbok.jpg" alt="">
+            <h3>Equipos Notebook</h3>
+            <p>Novos e usados</p>
+            <a href="#" class="btn">Compre Agora</a>
+        </div>
+        <div class="box">
+            <img src="image/accesorio1.jpg" alt="">
+            <h3>accesorios</h3>
+            <p>Conectores</p>
+            <a href="#" class="btn">Compre Agora</a>
+        </div>
+        <div class="box">
+            <img src="image/imag10.png" alt="">
+            <h3>Peças Originales</h3>
+            <p>Novos e Usados</p>
+            <a href="#" class="btn">Compre Agora</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- categories section ends -->
+
+<!-- review section starts  -->
+
+<section class="review" id="review">
+
+    <h1 class="heading"> Clientes <span>Comentàrios</span> </h1>
+
+    <div class="swiper review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="image/Alicia SC.jpg" alt="">
+                <p>excelente serviço, rápido e garantido, concertaron meu Notebook.</p>
+                <h3>Alicia SC</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/Screenshot_20220403-073513_Facebook.jpg" alt="">
+                <p>consertaram meu smartphone em tempo recorde, parabéns.</p>
+                <h3>George Peter</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/cesar1.jpg" alt="">
+                <p>Mudaram minha tela de meu celular e está original, parabéns, recomendado.</p>
+                <h3>Cesar S</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/marco Jr..jpeg" alt="">
+                <p>minha impressora estava como nova, eu a perdi e eles fizeram meu escritório feliz novamente, recomendado.</p>
+                <h3>Antonio S C</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- review section ends -->
+
+<!-- blogs section starts  -->
+
+<section class="blogs" id="blogs">
+
+    <h1 class="heading"> Nossos <span>blogs</span> </h1>
+    <section>
+        <article>
+          <h2>Reparación y Mantenimiento de Computadoras</h2>
+          <p>Ofrecemos servicios completos de reparación y mantenimiento para computadoras de escritorio y portátiles. Desde la limpieza de virus hasta la actualización de hardware, nuestro equipo de expertos está aquí para ayudarte a mantener tus dispositivos funcionando sin problemas.</p>
+        </article>
+        <article>
+          <h2>Reparación de Celulares</h2>
+          <p>Nuestros técnicos capacitados pueden diagnosticar y reparar una amplia gama de problemas en teléfonos móviles y tablets, incluyendo pantallas rotas, problemas de batería y fallos de software. ¡Deja tu dispositivo en nuestras manos y te ayudaremos a recuperar su funcionalidad completa!</p>
+        </article>
+        <article>
+          <h2>Creación de Sitios Web</h2>
+          <p>Diseñamos y desarrollamos sitios web a medida para empresas y particulares. Desde sitios web informativos hasta tiendas en línea, podemos crear una presencia en línea profesional que se adapte a tus necesidades y objetivos.</p>
+        </article>
+        <article>
+          <h2>Otros Servicios</h2>
+   
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="image/modelos smart.jpg" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-user"></i> Por usuário </a>
+                    <a href="#"> <i class="fas fa-calendar"></i> 1st may, 2022 </a>
+                </div>
+                <h3>Novos Modelos de Smartphone</h3>
+                <p>Iphone, Samsung, Motorola, Lg</p>
+                <a href="#" class="btn">e muito mais</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="image/MacB.jpg" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-user"></i> Por usuário </a>
+                    <a href="#"> <i class="fas fa-calendar"></i> 1st may, 2022 </a>
+                </div>
+                <h3>MacBook</h3>
+                <p>MacBook 2022.</p>
+                <a href="#" class="btn">E muito mais</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="image/dell1.jpg" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-laptop"></i> Por usuário </a>
+                    <a href="#"> <i class="fas fa-calendar"></i> 1st may, 2022 </a>
+                </div>
+                <h3>DELL ultima Generación</h3>
+                <p>Dell 2022</p>
+                <a href="#" class="btn">e muito mais</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- blogs section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3> SavalaTech <i class="fas fa-laptop"></i> </h3>
+            <p>Empresa que veio prestar serviços de seus equipamentos de informática, com garantia.</p>
+            <div class="share">
+                <a href="https://www.facebook.com/Clinica-do-Computador-103485461482126" class="fab fa-facebook-f"></a>
+                <a href="https://twitter.com/Marcosavala1" class="fab fa-twitter"></a>
+                <a href="https://www.instagram.com/savalatech/" class="fab fa-instagram"></a>
+                <a href="https://www.linkedin.com/in/marco-antonio-savala-beltrame-b70986108/" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#" class="links"> <i class="fas fa-phone"></i> +55-11-9986816888 </a>
+            <a href="#" class="links"> <i class="fas fa-phone"></i> +55-48-991857171</a>
+            <a href="#" class="links"> <i class="fas fa-envelope"></i> marcosavala236@gmail.com </a>
+            <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> Santa Cruz, Rua # 327 -La Concordia, Santa Catarina -Brasil</a>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m19!1m8!1m3!1d116966.15972131884!2d-46.6004962!3d-23.6332765!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x94ce42b13484cb8b%3A0x19f305dcc6e3c661!2sClinica%20do%20Computadoras!3m2!1d-23.6332922!2d-46.5304558!5e0!3m2!1spt-BR!2sbr!4v1651444392650!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="box">
+            <h3>rapidos links</h3>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Loja </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Servicios </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> products </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> categories </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> review </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> blogs </a>
+        </div>
+
+        <div class="box">
+            <h3>Noticias</h3>
+            <p>subscribase para recibir noticias actuales</p>
+            <input type="email" placeholder="your email" class="email">
+            <input type="submit" value="subscribe" class="btn">
+            <img src="image/payment.png" class="payment-img" alt="">
+        </div>
+
+    </div>
+
+    <div class="credit"> created by <span> Marco Savala </span> | all rights reserved </div>
+
+</section>
+
+<!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="script.js"></script>
+
+</body>
+</html>
